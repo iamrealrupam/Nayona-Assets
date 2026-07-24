@@ -1,0 +1,54 @@
+{
+  "manifest_version": "1.0.2",
+  "assets": [
+    {
+      "id": "license",
+      "version": "1.0.0",
+      "path": "LICENSE/LICENSE.md",
+      "sha256": "2a0066258c1c3a014aefcb21c45be8317a11745f392d221773db86906e7d68db",
+      "required": true
+    },
+    {
+      "id": "privacy",
+      "version": "1.0.0",
+      "path": "privacy/PRIVACY.md",
+      "sha256": "602b2e2d1f7fc902c1a69ac6e91915e609c3dd7bd20e394165504d0915071816",
+      "required": true
+    },
+    {
+      "id": "terms",
+      "version": "1.0.0",
+      "path": "terms/TERMS.md",
+      "sha256": "48bcac632402f71b700c235915b03991a517e290caf716e0b2b55c0d415aeb46",
+      "required": true
+    },
+    {
+      "id": "quotes",
+      "version": "1.1.0",
+      "path": "quotes/English.json",
+      "sha256": "5cc123a26890d0ff83435c22c3b63f834d982d6ac3f4c1cf3a80146842fd31ab",
+      "required": true,
+      "files": [
+        {
+          "path": "quotes/Bangla.json",
+          "sha256": "be2686b274aa28ea84a21e71e43d4335e2058f215c068bd6c7bc83178c590810"
+        },
+        {
+          "path": "quotes/English.json",
+          "sha256": "5cc123a26890d0ff83435c22c3b63f834d982d6ac3f4c1cf3a80146842fd31ab"
+        },
+        {
+          "path": "quotes/Hindi.json",
+          "sha256": "2c278afc50fd0483dce15f2fbd760c441304dabc5e0b3906cbe8742b2d3c582b"
+        }
+      ]
+    },
+    {
+      "id": "donate",
+      "version": "1.0.0",
+      "path": "donate/info.json",
+      "sha256": "b85b9d9a0b674d10057d1f03865e22101cb986145be9a594d9c585eacb098d64",
+      "required": false
+    }
+  ]
+}
